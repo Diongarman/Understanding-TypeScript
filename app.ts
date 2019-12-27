@@ -4,7 +4,7 @@ const person = {
     hobbies: ['Sports', 'Science']
 };
 
-let favActivities: string[];
+let favActivities: any[];
 
 favActivities = ['sports', true];
 
