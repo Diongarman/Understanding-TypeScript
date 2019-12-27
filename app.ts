@@ -11,15 +11,17 @@
 // };
 
 //global constants
-const ADMIN = 0;
-const READ_ONLY = 1;
-const AUTHOR = 2;
+// const ADMIN = 0;
+// const READ_ONLY = 1;
+// const AUTHOR = 2;
+
+enum Role {ADMIN, READ_ONLY, AUTHOR}
 
 const person = {
     name: 'Dion',
     age: 100,
     hobbies: ['Sports', 'Science'],
-    role: ADMIN
+    role: Role.AUTHOR
 };
 
 
@@ -27,7 +29,7 @@ const person = {
 //person.role.push('unwanted value');
 //person.role[1] = 69;
 
-if (person.role === ADMIN) {
+if (person.role === Role.AUTHOR) {
 
     console.log("is admin");
 }
