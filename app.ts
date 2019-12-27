@@ -1,7 +1,4 @@
-const person: {
-    name: string;
-    age: number;
-} = {
+const person = {
     name: 'Dion',
     age: 100
 };
