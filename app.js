@@ -8,9 +8,10 @@ function add(n1, n2, showResult, phrase) {
     }
 }
 var number1;
-number1 = '5';
+number1 = 5;
 var number2 = 2.8;
 var showResult = true;
 var printPhrase = "The number is... ";
+printPhrase = 69;
 var result = add(number1, number2, showResult, printPhrase);
 console.log(result);
