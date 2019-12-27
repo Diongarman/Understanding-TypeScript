@@ -1,11 +1,15 @@
 const person = {
     name: 'Dion',
     age: 100,
-    hobbies: ['Sports', 'Science']
+    hobbies: ['Sports', 'Science'],
+    role: [2, 'author']
 };
 
-let favActivities: any[];
 
-favActivities = ['sports', true];
+person.role.push('unwanted value');
+person.role[1] = 69;
+let favActivities: string[];
+
+favActivities = ['sports'];
 
 console.log(person.age);
