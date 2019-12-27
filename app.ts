@@ -12,7 +12,7 @@ const person: {
 
 //problematic code
 person.role.push('unwanted value');
-person.role[1] = 69;
+//person.role[1] = 69;
 
 
 let favActivities: string[];
