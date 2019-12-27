@@ -4,4 +4,8 @@ const person = {
     hobbies: ['Sports', 'Science']
 };
 
+let favActivities: string[];
+
+favActivities = ['sports', true];
+
 console.log(person.age);
