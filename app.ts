@@ -3,4 +3,4 @@ const person: object = {
     age: 100
 };
 
-console.log(person.nickname);
+console.log(person.name);
