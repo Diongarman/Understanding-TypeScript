@@ -7,5 +7,6 @@ function printResult(num) {
 //printResult(add(11,58))
 var combineValues;
 combineValues = add;
-combineValues = 5;
+//below line will throw compilation error 
+//combineValues = 5;
 console.log(printResult(add(11, 58)));
