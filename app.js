@@ -13,5 +13,5 @@ var combineAges = combine(12, 13, 'as-number');
 console.log(combineAges);
 var combineStringAges = combine(30, 19, 'as-number');
 console.log(combineStringAges);
-var combineNames = combine('Daniel', 'Hernandez', 'as-string');
+var combineNames = combine('Daniel', 'Hernandez', 'as-text');
 console.log(combineNames);

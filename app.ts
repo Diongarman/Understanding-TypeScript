@@ -1,7 +1,10 @@
+type Combineable = number | string;
+type conversionDescriptor = 'as-number' | 'as-text';
+
 function combine(
-    input1: number | string, 
-    input2: number | string,
-    resultConversion: 'as-number' | 'as-text'
+    input1: Combineable, 
+    input2: Combineable,
+    resultConversion: conversionDescriptor
     ) {
     let result;
 
@@ -21,5 +24,5 @@ console.log(combineAges);
 const combineStringAges = combine(30,19, 'as-number');
 console.log(combineStringAges);
 
-const combineNames = combine('Daniel', 'Hernandez', 'as-string');
+const combineNames = combine('Daniel', 'Hernandez', 'as-text');
 console.log(combineNames);
