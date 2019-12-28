@@ -9,11 +9,11 @@ function printResult(num: number): void {
 //printResult(add(11,58))
 
 
-let combineValues: Function;
+let combineValues: (a:number, b:number) => number;
 
 combineValues = add;
 //below line will throw compilation error (CErr)
-//combineValues = 5;
+combineValues = printResult;
 
 //line below will throw a CErr though as combineValue can be cast to any 'Function' type
 
