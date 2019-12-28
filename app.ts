@@ -1,42 +1,11 @@
-// const person: {
-//     name: string;
-//     age: number;
-//     hobbies: string[];
-//     role: [number, string];
-// } = {
-//     name: 'Dion',
-//     age: 100,
-//     hobbies: ['Sports', 'Science'],
-//     role: [2, 'author']
-// };
-
-//global constants
-// const ADMIN = 0;
-// const READ_ONLY = 1;
-// const AUTHOR = 2;
-
-enum Role {ADMIN, READ_ONLY, AUTHOR}
-
-const person = {
-    name: 'Dion',
-    age: 100,
-    hobbies: ['Sports', 'Science'],
-    role: Role.AUTHOR
-};
-
-
-//problematic code
-//person.role.push('unwanted value');
-//person.role[1] = 69;
-
-if (person.role === Role.AUTHOR) {
-
-    console.log("is admin");
+function combine(input1: number | string, input2: number | string) {
+    const result = input1 + input2;
+    return result;
 }
 
 
-let favActivities: string[];
+const combineAges = combine(12,13);
+console.log(combineAges);
 
-favActivities = ['sports'];
-
-console.log(person.age);
+const combineNames = combine('Daniel', 'Hernandez');
+console.log(combineNames);
