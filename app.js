@@ -14,4 +14,5 @@ combineValues = add;
 //combineValues = printResult;
 addAndHandle(6, 9, function (result) {
     console.log(result);
+    return result;
 });
